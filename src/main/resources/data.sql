@@ -1,0 +1,8 @@
+INSERT INTO user VALUES(90001,sysdate(),'Uer1','test1111','12345-678910-1');
+INSERT INTO user VALUES(90002,sysdate(),'Uer2','test2222','12345-678910-2');
+INSERT INTO user VALUES(90003,sysdate(),'Uer3','test3333','12345-678910-3');
+
+
+INSERT INTO post VALUES(10001, '1st post', 90001);
+INSERT INTO post VALUES(10002, '2nd post', 90002);
+INSERT INTO post VALUES(10003, '3rd post', 90003);

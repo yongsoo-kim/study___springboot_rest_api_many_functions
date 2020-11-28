@@ -14,12 +14,25 @@ spring:
     user:
       name: username
       password: passw0rd
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+    platform: h2
 
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+
+
 
 
 
